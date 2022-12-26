@@ -1,0 +1,7 @@
+const { gqp } = require("apollo-server");
+
+module.exports = gql`
+  type Table {
+    id: String
+  }
+`;
